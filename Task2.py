@@ -12,17 +12,17 @@ print("normal list that display the codes:", sodesN)
 
  #comprehensive list
 codesC =[c for c in codes]
-print("\nA comprehensio list that will dispaly in codes:", codesC)
+print("\nA comprehension list that will dispaly in codes:", codesC)
 
 # Create a normal and comprehensive list that will add the codes together for auditing purpose.
 addCodesN = []
-sumN = 0
+sumN = 0                
 for cc in codes:
     sumN = sumN + cc
 addcodesN.append(sumN)
 print("norml list:",addcodesN )
 
-
+                                          
 sumC = 0
 addcodesC = [sumC: =sumC +ccComp for ccComp in codes]
 print("\n comperhension", addcodesC)
